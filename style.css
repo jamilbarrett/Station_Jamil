@@ -31,11 +31,11 @@ body {
     padding: 30px;
 
 }
-
+/* made the text in the aside section bigger to give it more clarity */
 .text-wrapper {
-    font-weight: bolder;
+    font-weight: bold;
 }
-
+/* aligned everythin on the x axis */
 main {
     display: flex;
 
@@ -75,13 +75,13 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
 }
-
+/* colored the period at the end of jamil barrett */
 .dot {
     font-weight: 900;
     color: orange
 }
 
-
+/* this section adjusts the screens size for a smaller screen, an ipad or galaxy note for example */
 @media (max-width:800px) {
     main {
         flex-direction: column;
