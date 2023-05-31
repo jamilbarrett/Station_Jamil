@@ -47,7 +47,14 @@ h1 {
 }
 
 .works {
-    width:600px;
+    width: 600px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
+
+.dot {
+    font-weight: 900;
+    color: orange
+}
+    
