@@ -4,7 +4,12 @@
 }
 
 body {
-    background-image: url("./homework/station_jamil/IMG_1802.jpg")
+    background-image: url("./bluesplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
 }
 
 .header {
@@ -25,6 +30,20 @@ body {
     margin-right: 0px;
     padding: 30px;
 
+}
+
+.text-wrapper {
+    font-weight: bolder;
+}
+
+main {
+    display: flex;
+
+}
+
+
+.image-wrapper {
+    padding: 10px;
 }
 
 h1 {
@@ -62,12 +81,18 @@ h1 {
     color: orange
 }
 
-.image-wrapper {
-    float: left;
-    padding: 10px;
-}
 
-@media screen and (max-width:768px) and (orientation: portrait)  {
-    background-color: wheat;
+@media (max-width:800px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .text-wrapper {
+        text-align: center;
+        font-weight: bold;
+    }
+
 
 }
