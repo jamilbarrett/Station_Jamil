@@ -3,6 +3,9 @@
     font-weight: lighter
 }
 
+body {
+    background-image: url("./homework/station_jamil/IMG_1802.jpg")
+}
 
 .header {
     background-color: white;
