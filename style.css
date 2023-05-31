@@ -1,5 +1,53 @@
+* {
+    font-family:sans-serif ;
+    font-weight:lighter
+}
+
+
 .header {
     background-color: white;
     color: black;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header nav {
+    display: flex;
+    
+}
+
+.header nav li {
+    margin-right: 0px;
+    padding: 30px;
+
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.contact li {
+    list-style-type: none;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact li {
+    display: inline;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.works {
+    width:600px;
+    display: flex;
+    flex-wrap: wrap;
 }
